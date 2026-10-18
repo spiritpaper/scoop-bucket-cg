@@ -1,0 +1,34 @@
+{
+    "version": "0.2.1",
+    "description": "Like git, but she has feelings: a git-learning game you play on a real project",
+    "homepage": "https://github.com/spiritpaper/cursed-git",
+    "license": "MIT",
+    "depends": "git",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/spiritpaper/cursed-git/releases/download/v0.2.1/cg-v0.2.1-windows-amd64.zip",
+            "hash": "f24856dac417ec4a84bab7c628867593b114f0676a9b79a13469403b57121399",
+            "extract_dir": "cg-v0.2.1-windows-amd64"
+        },
+        "arm64": {
+            "url": "https://github.com/spiritpaper/cursed-git/releases/download/v0.2.1/cg-v0.2.1-windows-arm64.zip",
+            "hash": "8c9b00e5737ef284cde6a71344a28b13815e62a2e3260bdfc279ab4042bc6982",
+            "extract_dir": "cg-v0.2.1-windows-arm64"
+        }
+    },
+    "bin": "cg.exe",
+    "notes": "Start a game in any git repository: cg init (Miranda) or cg init --preset gentle (Juniper). She plays in Windows Terminal, PowerShell and cmd.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/spiritpaper/cursed-git/releases/download/v$version/cg-v$version-windows-amd64.zip",
+                "extract_dir": "cg-v$version-windows-amd64"
+            },
+            "arm64": {
+                "url": "https://github.com/spiritpaper/cursed-git/releases/download/v$version/cg-v$version-windows-arm64.zip",
+                "extract_dir": "cg-v$version-windows-arm64"
+            }
+        }
+    }
+}
