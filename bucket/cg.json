@@ -1,19 +1,19 @@
 {
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "Like git, but she has feelings: a git-learning game you play on a real project",
     "homepage": "https://github.com/spiritpaper/cursed-git",
     "license": "MIT",
     "depends": "git",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spiritpaper/cursed-git/releases/download/v0.2.1/cg-v0.2.1-windows-amd64.zip",
-            "hash": "f24856dac417ec4a84bab7c628867593b114f0676a9b79a13469403b57121399",
-            "extract_dir": "cg-v0.2.1-windows-amd64"
+            "url": "https://github.com/spiritpaper/cursed-git/releases/download/v0.3.0/cg-v0.3.0-windows-amd64.zip",
+            "hash": "6f2072cf8c2ded086efca9d66c1a7934bb77869963d2922d819e46a1492c8a61",
+            "extract_dir": "cg-v0.3.0-windows-amd64"
         },
         "arm64": {
-            "url": "https://github.com/spiritpaper/cursed-git/releases/download/v0.2.1/cg-v0.2.1-windows-arm64.zip",
-            "hash": "8c9b00e5737ef284cde6a71344a28b13815e62a2e3260bdfc279ab4042bc6982",
-            "extract_dir": "cg-v0.2.1-windows-arm64"
+            "url": "https://github.com/spiritpaper/cursed-git/releases/download/v0.3.0/cg-v0.3.0-windows-arm64.zip",
+            "hash": "a533fab25448e3370b3bffa3d658ee7e3cac231e07292e79f3bb3b79145c3f42",
+            "extract_dir": "cg-v0.3.0-windows-arm64"
         }
     },
     "bin": "cg.exe",
